@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
     srand(time(NULL)); // Initialisez la graine pour la génération aléatoire
 
     int N, i, j, k;
+    printf("taille de la matrice");
     scanf("%d", &N); // la taille de la grille (matrice)
     int grille[N][N];
 
